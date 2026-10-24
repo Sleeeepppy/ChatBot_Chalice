@@ -1,0 +1,21 @@
+# 音视频原文件不提交
+raw/
+*.mp4
+*.flv
+*.m4a
+*.wav
+*.mp3
+
+# LLM 起草的样本草稿（校对后改名为 <BV>.jsonl 再提交）
+*.draft.jsonl
+
+# 中间产物（评测集、统计、报告、dry-run 提示词）
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 密钥
+.env
